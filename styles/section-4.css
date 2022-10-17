@@ -9,19 +9,19 @@
 }
 
 #section-4 .grid > div:nth-child(1) {
-	--icon: url("./../images/step-1.svg");
+	--icon: var(--icon-step-1);
 }
 
 #section-4 .grid > div:nth-child(2) {
-	--icon: url("./../images/step-2.svg");
+	--icon: var(--icon-step-2);
 }
 
 #section-4 .grid > div:nth-child(3) {
-	--icon: url("./../images/step-3.svg");
+	--icon: var(--icon-step-3);
 }
 
 #section-4 .grid > div:nth-child(4) {
-	--icon: url("./../images/step-4.svg");
+	--icon: var(--icon-step-4);
 	background-color: #000;
 }
 
@@ -35,6 +35,8 @@
 
 #section-4 .grid > div::before {
 	display: block;
+	width: 40px;
+	height: 40px;
 }
 
 #section-4 .grid > div strong {
