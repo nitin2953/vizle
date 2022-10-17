@@ -67,7 +67,7 @@
 	width: 50px;
 	height: 40px;
 	color: transparent;
-	background: url("./../images/arrow.svg") center no-repeat;
+	background: var(--icon-arrow-right) center no-repeat;
 }
 
 #section-5 #scroll-btn button#prev {
