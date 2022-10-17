@@ -1,4 +1,4 @@
-#section-5>.wrap {
+#section-5 > .wrap {
 	flex-direction: column;
 	gap: 20px;
 	padding: 0 clamp(15px, 0.134rem + 3.57vw, 45px);
@@ -18,7 +18,7 @@
 	display: none;
 }
 
-#section-5 #slider>.card {
+#section-5 #slider > .card {
 	display: grid;
 	grid-template-columns: 115px auto;
 	grid-template-rows: auto 25px;
@@ -34,7 +34,7 @@
 }
 
 @media (max-width: 700px) {
-	#section-5 #slider>.card {
+	#section-5 #slider > .card {
 		grid-template-columns: 1fr;
 		grid-template-rows: none;
 		gap: 20px;
@@ -42,17 +42,17 @@
 	}
 }
 
-#section-5 #slider>.card img {
+#section-5 #slider > .card img {
 	grid-row: 1/-1;
 	width: 115px;
 	height: 115px;
 }
 
-#section-5 #slider>.card p {
+#section-5 #slider > .card p {
 	color: #434343;
 }
 
-#section-5 #slider>.card span {
+#section-5 #slider > .card span {
 	color: #36B9CC;
 }
 

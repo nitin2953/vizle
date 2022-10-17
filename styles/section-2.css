@@ -13,7 +13,7 @@
 }
 
 @media (max-width: 500px) {
-	#section-2 h2> :first-child {
+	#section-2 h2 >  :first-child {
 		flex: 100%;
 	}
 
@@ -70,16 +70,16 @@
 		width: 100%;
 	}
 
-	#section-2 #platform>span {
+	#section-2 #platform > span {
 		width: min-content;
 	}
 
-	#section-2 #platform>div {
+	#section-2 #platform > div {
 		scale: 85%;
 	}
 }
 
-#section-2 #platform>span {
+#section-2 #platform > span {
 	font-weight: 500;
 }
 
@@ -88,9 +88,19 @@
 	line-height: 25px;
 }
 
-#section-2>p {
+#section-2 #platform svg {
+	width: 36px;
+	height: 36px;
+}
+
+#section-2 > p {
 	padding: 0 5px;
 	margin: -15px 0 -10px;
+}
+
+#section-2 > p svg {
+	width: 40px;
+	height: 40px;
 }
 
 #section-2 #convert-option {
@@ -110,12 +120,12 @@
 }
 
 @media (min-width: 450px) and (max-width: 650px) {
-	#section-2 #convert-option> :last-of-type {
+	#section-2 #convert-option >  :last-of-type {
 		flex: 100%;
 	}
 }
 
-#section-2 #convert-option>div {
+#section-2 #convert-option > div {
 	flex: 1;
 	flex-direction: column;
 	justify-content: space-between;
@@ -124,12 +134,12 @@
 }
 
 @media (max-width: 450px) {
-	#section-2 #convert-option>div {
+	#section-2 #convert-option > div {
 		gap: 20px;
 	}
 }
 
-#section-2 #convert-option>hr {
+#section-2 #convert-option > hr {
 	border: dashed #E1E1E1;
 }
 
@@ -137,6 +147,6 @@
 	font-size: 20px;
 }
 
-#section-2 #convert-option strong>span {
+#section-2 #convert-option strong > span {
 	color: #4385c9;
 }
