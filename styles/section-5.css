@@ -1,0 +1,79 @@
+#section-5>.wrap {
+	flex-direction: column;
+	gap: 20px;
+	padding: 0 clamp(15px, 0.134rem + 3.57vw, 45px);
+}
+
+#section-5 #slider {
+	display: flex;
+	gap: 50px;
+	width: 100%;
+	padding: 20px max(7%, (100% - 700px) / 2);
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	scrollbar-width: none;
+}
+
+#section-5 #slider::-webkit-scrollbar {
+	display: none;
+}
+
+#section-5 #slider>.card {
+	display: grid;
+	grid-template-columns: 115px auto;
+	grid-template-rows: auto 25px;
+	gap: 30px 25px;
+	flex: 1 0 100%;
+	width: min(100%, 700px);
+	padding: min(50px, 8%) min(40px, 7%);
+	border-radius: var(--radius-large);
+	border: 2px solid #36B9CC;
+	font-size: clamp(17.5px, 1.027rem + 0.3vw, 20px);
+	scroll-snap-align: center;
+	scroll-snap-stop: always;
+}
+
+@media (max-width: 700px) {
+	#section-5 #slider>.card {
+		grid-template-columns: 1fr;
+		grid-template-rows: none;
+		gap: 20px;
+		justify-items: center;
+	}
+}
+
+#section-5 #slider>.card img {
+	grid-row: 1/-1;
+	width: 115px;
+	height: 115px;
+}
+
+#section-5 #slider>.card p {
+	color: #434343;
+}
+
+#section-5 #slider>.card span {
+	color: #36B9CC;
+}
+
+#section-5 #scroll-btn {
+	display: flex;
+	justify-content: end;
+	gap: 20px;
+	width: min(85%, 700px);
+}
+
+#section-5 #scroll-btn button {
+	width: 50px;
+	height: 40px;
+	color: transparent;
+	background: url("/images/arrow.svg") center no-repeat;
+}
+
+#section-5 #scroll-btn button#prev {
+	transform: rotate(180deg);
+}
+
+#section-5 #scroll-btn button:hover {
+	background-color: #f5f5f5;
+}

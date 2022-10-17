@@ -1,0 +1,72 @@
+#section-3 {
+	gap: clamp(70px, 2.232rem + 9.52vw, 150px);
+}
+
+#section-3 .wrap {
+	border-radius: var(--radius-large);
+	padding: clamp(55px, 3.036rem + 1.79vw, 70px) 0;
+}
+
+#section-3 .wrap:first-child {
+	background-color: #FFE7D6;
+}
+
+#section-3 .wrap:last-child {
+	background-color: #D0E6FF;
+}
+
+#section-3 .wrap h2 {
+	font-size: clamp(28px, 1.536rem + 0.95vw, 36px);
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#section-3 .wrap ul.grid {
+	padding: 0 clamp(15px, -0.313rem + 4.17vw, 45px);
+}
+
+@media (max-width: 700px) {
+	#section-3 .wrap ul.grid {
+		grid-template-columns: repeat(4, 206px);
+		grid-template-rows: repeat(2, 1fr);
+		--mask: linear-gradient(to left, #0000 0, #000 15px),
+			linear-gradient(to right, #0000 0, black 15px);
+		mask-image: var(--mask);
+		-webkit-mask-image: var(--mask);
+		mask-composite: source-in;
+		-webkit-mask-composite: source-in;
+		padding-bottom: 40px;
+		overflow: overlay;
+		scrollbar-width: thin;
+		scrollbar-color: #bbb transparent;
+	}
+
+	#section-3 .wrap ul.grid::-webkit-scrollbar {
+		height: 28px;
+	}
+
+	#section-3 .wrap ul.grid::-webkit-scrollbar-thumb {
+		background: #bbb;
+		border-radius: 28px;
+		border: 11px solid transparent;
+		background-clip: content-box;
+	}
+
+	#section-3 .wrap ul.grid::-webkit-scrollbar-track {
+		background: transparent;
+	}
+}
+
+#section-3 .wrap ul.grid li {
+	display: block;
+}
+
+#section-3 .wrap ul.grid b {
+	font-size: clamp(20px, 1.143rem + 0.48vw, 24px);
+}
+
+@media (max-width: 700px) {
+	#section-3 .wrap ul.grid b {
+		display: none;
+	}
+}

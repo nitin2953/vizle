@@ -1,0 +1,37 @@
+#section-1 {
+	text-align: center;
+}
+
+#section-1 h1 {
+	font-size: clamp(45px, 2.244rem + 2.84vw, 70px);
+	font-weight: 800;
+	max-width: 900px;
+	line-height: calc(1em + 0.5rem);
+}
+
+#section-1 h1>span {
+	color: #4385c9;
+}
+
+#section-1 p {
+	font-size: clamp(18px, 1.018rem + 0.48vw, 22px);
+	line-height: 1.6;
+	max-width: 740px;
+}
+
+#section-1 .flex {
+	gap: 20px;
+}
+
+#section-1 #video-button {
+	transition: transform cubic-bezier(0, 1.5, 1, 1) 0.2s;
+}
+
+#section-1 #video-button span {
+	background-color: #A89AEC;
+}
+
+#section-1 #video-button:hover,
+#section-1 #video-button:focus-visible {
+	transform: translateY(-5px);
+}
