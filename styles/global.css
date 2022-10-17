@@ -450,7 +450,7 @@ a[download] {
 }
 
 .grid>*::before {
-	content: var(--icon, url("/images/videos.svg"));
+	content: var(--icon, url("./../images/videos.svg"));
 	margin: 0 12px 16px 0;
 	vertical-align: sub;
 }
@@ -471,14 +471,14 @@ a[download] {
 .corner::after {
 	content: "";
 	position: absolute;
-	background: url("/images/star.svg") center/100% no-repeat;
+	background: url("./../images/star.svg") center/100% no-repeat;
 	width: clamp(35px, 1.786rem + 1.79vw, 50px);
 	aspect-ratio: 1;
 	transform: translate(-10%, 10%);
 }
 
 #section-6 .corner::after {
-	background-image: url("/images/lines.svg");
+	background-image: url("./../images/lines.svg");
 	width: clamp(22px, 1.107rem + 1.19vw, 32px);
 	aspect-ratio: 8/11;
 	transform: translate(-20%, -30%);
