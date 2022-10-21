@@ -108,8 +108,9 @@
 }
 
 #section-2 #convert-footer {
-	justify-content: space-between;
-	width: min(100%, 600px);
+	justify-content: space-evenly;
+	width: 100%;
+	gap: 20px;
 }
 
 #section-2 #convert-footer svg {
@@ -132,4 +133,11 @@
 
 #section-2 #convert-footer > div > .flex {
 	gap: 20px;
+}
+
+#section-2 #convert-footer > hr {
+	border: none;
+	border-bottom: 4px dotted #c4c4c4 !important;
+	width: clamp(30%, 1.103rem + 38.24vw, 50%);
+	height: 40px;
 }
