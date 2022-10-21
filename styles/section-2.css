@@ -136,7 +136,12 @@
 
 #section-2 #convert-footer > hr {
 	border: none;
-	border-bottom: 4px dotted #c4c4c4 !important;
 	width: clamp(30%, 1.103rem + 38.24vw, 50%);
-	height: 40px;
+	padding-top: 35px;
+}
+
+#section-2 #convert-footer > hr::before {
+	content: "••••••••••••••••••••••••••••••••••••••••••••••••••";
+	color: #c4c4c4;
+	letter-spacing: 1.5px;
 }
