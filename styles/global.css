@@ -335,6 +335,7 @@ header a:is(:hover, :focus-visible) {
 
 #site-footer .wrap-lg > nav {
 	flex-direction: column;
+	align-items: start;
 }
 
 #site-footer .wrap-lg .btn-primary {
