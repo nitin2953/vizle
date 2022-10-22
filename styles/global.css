@@ -4,6 +4,8 @@
 
 	--icon-star: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='52' fill='none' viewBox='0 0 50 52'%3E%3Cpath stroke='%23000' stroke-width='3' d='M23 1c1.2 19.3 7 30 26.5 31.1-14.5 0-20.8 6.5-26 18.9C27 37 17 33.5.5 32.1A27.2 27.2 0 0 0 23 1Z'/%3E%3C/svg%3E");
 	--icon-lines: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='33' height='45' fill='none' viewBox='0 0 33 45'%3E%3Cpath stroke='%23000' stroke-linecap='round' stroke-width='2.5' d='M26.7 14.2 11 29.4M5.8 4.2 2.6 16.4m14.3 23 14.1.2'/%3E%3C/svg%3E");
+	--icon-dot: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 60'%3E%3Ccircle cx='30' cy='50' r='3.75' fill='%23C8C8C8'/%3E%3C/svg%3E%0A");
+
 	--icon-videos: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M4 8H2v12a2 2 0 0 0 2 2h12v-2H4V8Z'/%3E%3Cpath fill='%23000' d='M20 2H8a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Zm-9 12V6l7 4-7 4Z'/%3E%3C/svg%3E");
 	--icon-arrow-down: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23626262' d='M6 9.7l1.4-1.4 4.6 4.6 4.6-4.6L18 9.7l-6 6'/%3E%3C/svg%3E");
 	--icon-arrow-right: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='24' viewBox='0 0 36 24'%3E%3Cpath fill='%23181818' fill-rule='evenodd' d='M.5 12a1.25 1.25 0 0 1 1.25-1.25h29.48l-7.87-7.86a1.25 1.25 0 0 1 1.78-1.77l10 10a1.25 1.25 0 0 1 0 1.77l-10 10a1.25 1.25 0 0 1-1.78-1.77l7.87-7.87H1.75A1.25 1.25 0 0 1 .5 12Z' clip-rule='evenodd'/%3E%3C/svg%3E");

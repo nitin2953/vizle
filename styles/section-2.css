@@ -135,13 +135,10 @@
 }
 
 #section-2 #convert-footer > hr {
-	border: none;
 	width: clamp(30%, 1.103rem + 38.24vw, 50%);
-	padding-top: 35px;
-}
-
-#section-2 #convert-footer > hr::before {
-	content: "••••••••••••••••••••••••••••••••••••••••••••••••••";
-	color: #c4c4c4;
-	letter-spacing: 1.5px;
+	height: 50px;
+	border-image-source: var(--icon-dot);
+	border-image-slice: calc(100% / 3);
+	border-image-repeat: round;
+	border-width: 0 0 12px 0 !important;
 }
