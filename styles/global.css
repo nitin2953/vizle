@@ -300,6 +300,10 @@ header a:is(:hover, :focus-visible) {
 	color: #FFF;
 }
 
+#site-footer a:hover {
+	color: #ddd;
+}
+
 #site-footer .wrap-lg {
 	display: flex;
 	align-items: center;
@@ -341,6 +345,10 @@ header a:is(:hover, :focus-visible) {
 #site-footer .wrap-lg .btn-primary {
 	background-color: #FFF;
 	color: #000;
+}
+
+#site-footer .wrap-lg .btn-primary:hover {
+	background-color: #ddd;
 }
 
 #site-footer .wrap-lg #social-links {
